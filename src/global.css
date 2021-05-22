@@ -61,3 +61,21 @@ main h2{
     height: 0px;
   }
 }
+
+@media (max-width:320px) {
+  main p{
+    font-size: 14px !important ;
+    width:19.5em  !important;
+
+    /* color: aqua !important; */
+  }
+  main span{
+    font-size: 14px !important;
+  }
+  
+  .divider_one>div{
+    width:18.5em;
+  }
+
+
+}

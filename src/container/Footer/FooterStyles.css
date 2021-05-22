@@ -255,3 +255,12 @@
 
 
 }
+
+@media (max-width:320px) {
+  .f-line{
+       width:18.5em;
+    }
+
+
+
+}
