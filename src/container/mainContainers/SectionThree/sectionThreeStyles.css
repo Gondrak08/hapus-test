@@ -1,0 +1,142 @@
+.container_three{
+  height: 35em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_three>div{
+  display: flex;
+  justify-items: center;
+  width: 70%;
+}
+
+.container_three>div>div>img{
+  width: 456px;
+}
+
+.container_three>div>div:first-of-type{
+  width: 50%;
+}
+
+.container_three>div>div:last-of-type
+{
+  width: 50%;
+  position: relative;
+  left: 0.5em;
+ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+  font-family: Inter;
+  font-style: normal;
+  color: #3D3D3D;
+}
+
+.container_three>div>div>h2{
+  position: relative;
+  bottom: 1em;
+}
+
+.container_three>div>div>p{
+  width: 484px;
+  position: relative;
+  bottom:4em ;
+}
+.container_three>div>div>span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #5E20A4;
+  text-decoration-line: underline;
+
+  position: relative;
+  bottom: 3.5em;
+
+}
+
+@media(max-width:414px){
+  .container_three{
+  height: 48em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_three>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+
+.container_three>div>div:first-of-type{
+  width: auto;
+}
+
+.container_three>div>div>#img{
+  width: 312px;
+  height: 230px;
+
+}
+
+.container_three>div>div:last-of-type{
+  width: 90%;
+  position: relative;
+  left:0;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  color: #3D3D3D;
+}
+.container_three>div>div>h2{
+  width: 226px;
+  text-align: center;
+  bottom: 0em;
+  /* font-weight:500; */
+  /* font-size: 22px; */
+}
+
+.container_three>div>div>p, .container_three>div>div>span{
+  font-size: 16px;
+}
+.container_three>div>div>p{
+  font-weight: normal;
+  /* line-height: 28px; */
+  position: relative;
+  /* width: 20.5em; */
+  bottom:0.5em;
+}
+.container_three>div>div>span{
+  line-height: 24px;
+  bottom: 0;
+
+}
+}
+
+
+/* lg-screen */
+
+@media(min-width:1920px){
+.container_three>div{
+  width: 50%;
+}
+.container_three>div>div:first-of-type{
+  width: 50%;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.container_three>div>div:last-of-type
+{
+  width: 50%;
+  left: 2em;
+}
+
+}
+
+
