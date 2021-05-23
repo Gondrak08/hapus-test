@@ -9,24 +9,24 @@ export const NewsLetter = () => {
     console.log(email, name)
     
 
-    function handleSubmit(e) {
+   async function handleSubmit(e) {
         e.preventDefault(e)
         const params = JSON.stringify({
             name: name,
             email: email
         });
         try {
-            const response = axios.post('https://api.jungledevs.com/api/v1/challenge-newsletter/', params, {
+            const response = await axios.post('https://api.jungledevs.com/api/v1/challenge-newsletter/', params, {
                 "headers": {
                     "content-type": "application/json",
                 }
             })
-
             alert('News Letter registrado!')
             console.log(response)
         } catch (err) {
             alert('Falha no registro de News Letter')
             console.log(err)
+            return err
         }
     }
     
