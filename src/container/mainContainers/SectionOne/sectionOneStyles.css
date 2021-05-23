@@ -46,9 +46,7 @@
 
 
 /* small screen */
-
-
-@media(max-width:414px){
+@media(max-width:425px){
 
   .container_one{
     height: 50em;
@@ -84,6 +82,41 @@
   }
 
 }
+
+
+/* middle-screen */
+@media (min-width:768px) and (max-width:1024px) {
+   .container_one{
+    height: 50em;
+  }
+
+  .container_one>div{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .container_one>div>div:first-of-type{
+    order: 1;
+    align-items: center;
+  }
+  .container_one>div>div>h2{
+    text-align: center;
+  }
+  .container_one>div>div>p{
+    text-align: center;
+    position: relative;
+    bottom: 1em;
+  }
+  .container_one>div>div>p>span, .container_one>div>div>span{
+    text-align: center;
+  }
+  .container_one>div> .container-image{
+    order:0;
+    left: 0;
+  }
+  
+}
+
 
 /* lg-screen */
 

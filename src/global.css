@@ -39,7 +39,7 @@ main h2{
   height: 0px;
 }
 /* small screens */
-@media(max-width:414px){
+@media(max-width:425px){
   main p{
     width: 20.5em  !important;
     font-size: 16px !important;
@@ -78,4 +78,25 @@ main h2{
   }
 
 
+}
+
+
+/* middle-screen */
+
+@media (min-width:768px) and (max-width:1024px){
+  main p{
+    width: 43.5em  !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
+     color: #3D3D3D;
+    /* color: green; */
+
+  }
+  
+
+  .divider_one>div{
+    border: 2px solid #DFDFDF;
+    width:85%;
+    height: 0px;
+  }
 }

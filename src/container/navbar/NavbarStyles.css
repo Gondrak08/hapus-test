@@ -105,7 +105,8 @@
 }
 }
 
-@media(max-width:414px){
+/* small screen */
+@media(max-width:425px){
     .nav_container>div{
     padding: 0 1.3em;
 }
@@ -129,5 +130,32 @@
         display: none;
     }
 
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+      .nav_container>div{
+    padding: 0 1.3em;
+}
+
+    .nav_links{
+        width:80% ;
+        
+    }
+    .nav_links>ul{
+        display: flex;
+        /* background-color: antiquewhite; */
+        
+    }
+
+    .nav_buttons{
+        
+        width:auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .nav_buttons>button:last-of-type{
+        display: none;
+    }
 }
 

@@ -182,7 +182,7 @@ header>svg{
 
 /* small screens */
 
-@media(max-width:414px){
+@media(max-width:425px){
     .hero{
         background-position: center;
         background-size: cover;
@@ -281,5 +281,99 @@ header>svg{
         width: 212px;
     }
 
+
+}
+
+
+/* middle screen */
+@media (min-width:768px) and (max-width:1024px){
+    .hero{
+        background-position: center;
+        background-size: cover;
+        height: 540px;
+        opacity: 20;
+    }
+
+    .header_container{
+    width: 95%;
+    /* background-color: green; */
+    }
+
+    .header_info{
+        height: auto;
+        width: 100%;
+    
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .header_info >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header_info>div>h1{
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing:0;
+        color:#FFFFFF;
+        margin: 0;
+    }
+
+    .header_info > .play_button_box{
+        display: flex;
+        margin-top: 1em;
+       
+    }
+
+    .header_info > .play_button_box > a> span{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 1em;
+    }
+
+    .header_box{
+    display: none;
+    }
+
+
+
+    .header_footer{
+        height: 216px;
+    }
+    
+    .header_footer_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 10em;
+        justify-content: space-between;
+    }
+
+   
+
+    .header_footer_container>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 5em;
+    }
+    .header_footer_container>div>span{
+        font-family: Inter;
+         font-style: normal;
+         font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .header_footer_container>div>a{
+        text-align: center;
+        width: 212px;
+    }
 
 }

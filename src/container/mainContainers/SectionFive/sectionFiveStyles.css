@@ -33,9 +33,9 @@
   width: 784px;
 }
 
+/* small screen */
 
-
-@media(max-width:414px){
+@media(max-width:425px){
   .container_five{
     height: 35em;
   }
@@ -56,4 +56,28 @@
   width: 90%;
 }
 
+}
+
+/* middle-screen */
+
+@media (min-width:768px) and (max-width:1024px){
+  .container_five{
+    height: 35em;
+  }
+  .container_five>div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container_five>div>div>img{
+  width:216px;
+}
+.container_five>div>div>h2{
+  width: auto;
+}
+.container_five>div>div:last-of-type{
+  width: 90%;
+}
 }
