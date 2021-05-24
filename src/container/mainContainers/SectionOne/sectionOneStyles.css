@@ -12,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   width: 69%;
-
+  
 }
 .container_one>div>div:first-of-type{
   display: flex;
@@ -122,10 +122,9 @@
 
 @media(min-width:1920px){
   .container_one>div{
-  width: 50%;
-
-  font-family: Inter;
+  width: 60%;
   justify-content: center;
+  flex-wrap: wrap;
 
 }
 

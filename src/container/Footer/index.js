@@ -23,14 +23,18 @@ const Footer = () => {
                         <div>
                             <img src={Button} alt="Create Your Nanny Share - button"/>
                         </div>
-                        <span>Or browse local nanny-shares</span>
+                        <span>
+                            <a href="#">
+                                Or browse local nanny-shares
+                            </a>
+                        </span>
                     </div>
                 </section>
 
                 <section className="f-b">
                     <div>
                         <div className="logo">
-                            <img src={Logo} alt=""/>
+                            <img src={Logo} alt="Hapu logo"/>
                         </div>
 
                         <div className="termos" >

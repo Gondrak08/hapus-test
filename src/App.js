@@ -14,10 +14,9 @@ import ClipLoader from "react-spinners/ClipLoader";
 
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsLoading(true)
     setTimeout(() => {
       setIsLoading(false)
     }, 500)

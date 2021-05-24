@@ -13,10 +13,12 @@ export const SectionOne = () => {
                     nanny and costs
                   </h2>
                     <p>
-                        You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be, well, fantastic?! If only it was easy to connect with other parents to share your costs? Well now it is, with Hapu. <span>Hapu means tribe</span> and it’s our foundational 3 tribal principles that empowers you to create and manage your own tribe. A tribe that together has the power to create new affordable solutions in childcare that work for you and your community.
+                        You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be, well, fantastic?! If only it was easy to connect with other parents to share your costs? Well now it is, with Hapu. <span><a href="#">Hapu means tribe</a></span> and it’s our foundational 3 tribal principles that empowers you to create and manage your own tribe. A tribe that together has the power to create new affordable solutions in childcare that work for you and your community.
                   </p>
                     <span>
-                        Ready to get started?
+                        <a href="#">
+                            Ready to get started?
+                        </a>
                   </span>
                 </div>
 
