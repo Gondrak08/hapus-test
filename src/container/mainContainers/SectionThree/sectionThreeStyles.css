@@ -17,6 +17,9 @@
 
 .container_three>div>div:first-of-type{
   width: 50%;
+  justify-content:flex-end;
+  /* position: relative; */
+  /* right: 3.5em; */
 }
 
 .container_three>div>div:last-of-type
@@ -158,22 +161,26 @@
 
 /* lg-screen */
 
-@media(min-width:1920px){
-.container_three>div{
-  width: 50%;
+@media (min-width:1550px){
+
+  .container_three>div{
+  width: 70%;
+
 }
 .container_three>div>div:first-of-type{
   width: 50%;
   display: flex;
   justify-content:flex-end;
+  position: relative;
+  right: 3.5em;
 }
 
 .container_three>div>div:last-of-type
 {
   width: 50%;
-  left: 2em;
-}
 
+}
+  
 }
 
 

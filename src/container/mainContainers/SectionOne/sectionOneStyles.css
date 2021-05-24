@@ -119,17 +119,14 @@
 
 
 /* lg-screen */
-
-@media(min-width:1920px){
+@media (min-width:1550px) {
   .container_one>div{
-  width: 60%;
+  width: fit-content;
   justify-content: center;
-  flex-wrap: wrap;
 
 }
-
 .container_one>div>div:first-of-type{
   width: min-content;
 }
-
 }
+
