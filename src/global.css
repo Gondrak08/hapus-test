@@ -20,10 +20,12 @@ main h2{
   color: #3D3D3D;
 }
 
-a{ 
-  text-decoration: none;
-}
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 
+ 
 .container_app{
   height: 100vw;
   /* width: 100vw; */
