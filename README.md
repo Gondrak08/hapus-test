@@ -19,4 +19,4 @@ TO run the build app use `serve -s build`
 
 ### Demo Website
 
-This app is live in netlify, you can see at: https://app.netlify.com/sites/quirky-beaver-13dfe2/overview
+This app is live in netlify, you can see at: https://quirky-beaver-13dfe2.netlify.app/
